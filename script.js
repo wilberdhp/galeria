@@ -19,7 +19,7 @@ const filtrarImagenes = (imagenes = [], categoria) => {
   mostrarImagenes(imagenesFiltradas);
 }
 
-// Acceder a los botones de las categorias para mostrar las imagenes
+// Acceder a los botones de las categorias de las imagenes
 buttonCategoria.forEach(button => {
   button.addEventListener("click", () => {
     contenedor.innerHTML = "";
@@ -64,7 +64,7 @@ const mostrarVentanaModal = () => {
 }
 mostrarVentanaModal()
 
-// Cerrar el boton de la ventana modal
+// Botón para cerrar la ventana modal
 botonCerrarModal.addEventListener("click", () => {
   imagenModal.id = "";
   imagenModal.src = "";
